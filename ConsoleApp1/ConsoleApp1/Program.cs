@@ -1,19 +1,14 @@
 ﻿using System;
-using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using ConsoleApp1.Models;
-using System.Text.Json;
 
 class Program
 {
     private static Department department = new Department();
-    private static readonly string databaseFile = "database.json";
     
     static void Main()
     {
-        LoadEmployees();
-        
         bool running = true;
         
         while (running)
@@ -25,7 +20,7 @@ class Program
             Console.WriteLine("3. Remove Employee");
             Console.WriteLine("0. Quit");
             Console.WriteLine("==================");
-            Console.Write("Please select an option): ");
+            Console.Write("Please select an option: ");
             
             string choice = Console.ReadLine();
             
@@ -44,7 +39,6 @@ class Program
                     break;
                     
                 case "0":
-                    Console.WriteLine("Quit");
                     Console.WriteLine("Goodbye!");
                     running = false;
                     break;
@@ -60,173 +54,61 @@ class Program
     
     public static void AddEmployee()
     {
-        try
-        {
-            Employee employee = new Employee();
-            Console.Write("Enter Employee Id: ");
-            employee.Id = int.Parse(Console.ReadLine());
-            
-            if (department.Employees.Any(e => e.Id == employee.Id))
-            {
-                Console.WriteLine("Employee with this ID already exists!");
-                Console.WriteLine("Press any key to continue...");
-                Console.ReadKey();
-                return;
-            }
-            
-            Console.Write("Enter Employee Name: ");
-            employee.Name = Console.ReadLine();
-            Console.Write("Enter Employee Salary: ");
-            employee.Salary = double.Parse(Console.ReadLine());
-            
-            department.AddEmployee(employee);
-            SaveEmployees();
-            
-            Console.WriteLine("Employee added successfully and saved to database!");
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadKey();
-        }
-        catch (FormatException)
-        {
-            Console.WriteLine("Invalid input format. Please enter valid numbers for ID and Salary.");
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadKey();
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"An error occurred: {ex.Message}");
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadKey();
-        }
+        Employee employee = new Employee();
+        
+        Console.Write("Enter Employee Id: ");
+        employee.Id = int.Parse(Console.ReadLine());
+        
+        Console.Write("Enter Employee Name: ");
+        employee.Name = Console.ReadLine();
+        
+        Console.Write("Enter Employee Salary: ");
+        employee.Salary = double.Parse(Console.ReadLine());
+        
+        department.AddEmployee(employee);
+        
+        Console.WriteLine("Employee added successfully!");
+        Console.WriteLine("Press any key to continue...");
+        Console.ReadKey();
     }
     
     public static void GetEmployeeById()
     {
-        try
+        Console.Write("Enter Employee ID to search: ");
+        int id = int.Parse(Console.ReadLine());
+        
+        var employee = department.Employees.FirstOrDefault(e => e.Id == id);
+        if (employee != null)
         {
-            Console.Write("Enter Employee ID to search: ");
-            int id = int.Parse(Console.ReadLine());
-            
-            LoadEmployees();
-            
-            var employee = department.Employees.FirstOrDefault(e => e.Id == id);
-            if (employee != null)
-            {
-                Console.WriteLine("\nEmployee found:");
-                employee.ShowInfo();
-            }
-            else
-            {
-                Console.WriteLine($"Employee with ID {id} not found.");
-            }
-            
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadKey();
+            Console.WriteLine("\nEmployee found:");
+            employee.ShowInfo();
         }
-        catch (FormatException)
+        else
         {
-            Console.WriteLine("Invalid input format. Please enter a valid number for ID.");
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadKey();
+            Console.WriteLine($"Employee with ID {id} not found.");
         }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"An error occurred: {ex.Message}");
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadKey();
-        }
+        
+        Console.WriteLine("Press any key to continue...");
+        Console.ReadKey();
     }
     
     public static void RemoveEmployee()
     {
-        try
+        Console.Write("Enter Employee ID to remove: ");
+        int id = int.Parse(Console.ReadLine());
+        
+        var employee = department.Employees.FirstOrDefault(e => e.Id == id);
+        if (employee != null)
         {
-            Console.Write("Enter Employee ID to remove: ");
-            int id = int.Parse(Console.ReadLine());
-            
-            LoadEmployees();
-            
-            var employee = department.Employees.FirstOrDefault(e => e.Id == id);
-            if (employee != null)
-            {
-                Console.WriteLine("\nEmployee to be removed:");
-                employee.ShowInfo();
-                Console.Write("\nAre you sure you want to remove this employee? (y/n): ");
-                string confirmation = Console.ReadLine();
-                
-                if (confirmation?.ToLower() == "y" || confirmation?.ToLower() == "yes")
-                {
-                    department.Employees.Remove(employee);
-                    SaveEmployees();
-                    
-                    Console.WriteLine("Employee removed successfully and database updated!");
-                }
-                else
-                {
-                    Console.WriteLine("Employee removal cancelled.");
-                }
-            }
-            else
-            {
-                Console.WriteLine($"Employee with ID {id} not found.");
-            }
-            
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadKey();
+            department.Employees.Remove(employee);
+            Console.WriteLine("Employee removed successfully!");
         }
-        catch (FormatException)
+        else
         {
-            Console.WriteLine("Invalid input format. Please enter a valid number for ID.");
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadKey();
+            Console.WriteLine($"Employee with ID {id} not found.");
         }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"An error occurred: {ex.Message}");
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadKey();
-        }
-    }
-    
-    private static void SaveEmployees()
-    {
-        try
-        {
-            var options = new JsonSerializerOptions
-            {
-                WriteIndented = true
-            };
-            
-            string jsonString = JsonSerializer.Serialize(department.Employees, options);
-            File.WriteAllText(databaseFile, jsonString);
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error saving to database: {ex.Message}");
-        }
-    }
-    
-    private static void LoadEmployees()
-    {
-        try
-        {
-            if (File.Exists(databaseFile))
-            {
-                string jsonString = File.ReadAllText(databaseFile);
-                if (!string.IsNullOrEmpty(jsonString))
-                {
-                    var employees = JsonSerializer.Deserialize<List<Employee>>(jsonString);
-                    if (employees != null)
-                    {
-                        department.Employees = employees;
-                    }
-                }
-            }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error loading from database: {ex.Message}");
-            Console.WriteLine("Starting with empty employee list.");
-        }
+        
+        Console.WriteLine("Press any key to continue...");
+        Console.ReadKey();
     }
 }
