@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7+/rBU7sM0c=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\MiniProject\\MiniProject\\MiniProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\amilm\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
+  ],
+  "logs": []
+}

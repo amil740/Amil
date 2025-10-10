@@ -1,0 +1,19 @@
+﻿using ConsoleApp2.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp2.Interfaces
+{
+    public interface ICardService
+    {
+        List<Card> GetAll();
+        void AddCard(Card card);
+        Card? GetById(int id);
+        
+        // Indexer - Card nömrəsi qəbul edib ona əsasən Card qaytarır
+        Card? this[string cardNumber] { get; }
+    }
+}

@@ -1,0 +1,176 @@
+﻿using ConsoleApp2.Models;
+using ConsoleApp2.Services;
+using ConsoleApp2.Transactions;
+using ConsoleApp2.Exceptions;
+
+var cardService = new CardService();
+var transactionService = new TransactionService();
+
+// Test kartları yaradırıq
+var leoCard = new Card
+{
+    Id = 1,
+    CardNumber = "1234567890123456",
+    Balance = 1500.50,
+    Bonus = 0.0,
+    Bank = Bank.Leo
+};
+
+var abbCard = new Card
+{
+    Id = 2,
+    CardNumber = "9876543210987654",
+    Balance = 2300.75,
+    Bonus = 0.0,
+    Bank = Bank.ABB
+};
+
+var kapitalCard = new Card
+{
+    Id = 3,
+    CardNumber = "5555444433332222",
+    Balance = 800.25,
+    Bonus = 0.0,
+    Bank = Bank.Kapital
+};
+
+Console.WriteLine("=== KART ƏLAVƏSİ TESTİ ===");
+try
+{
+    cardService.AddCard(leoCard);
+    cardService.AddCard(abbCard);
+    cardService.AddCard(kapitalCard);
+    
+    Console.WriteLine("Kartlar uğurla əlavə edildi!");
+}
+catch (ConflictException ex)
+{
+    Console.WriteLine($"Konflikt: {ex.Message}");
+}
+catch (InvalidCardNumberException ex)
+{
+    Console.WriteLine($"Səhv kart nömrəsi: {ex.Message}");
+}
+
+Console.WriteLine("\n=== BÜTÜN KARTLAR ===");
+var allCards = cardService.GetAll();
+Console.WriteLine($"Cəmi kartlar: {allCards.Count}");
+
+foreach (var card in allCards)
+{
+    Console.WriteLine(card.ToString());
+    Console.WriteLine($"Maskalı nömrə: {card.MaskCardNumber()}");
+    Console.WriteLine($"Bank: {card.Bank}");
+    Console.WriteLine("------------------------");
+}
+
+Console.WriteLine("\n=== INDEXER TESTİ ===");
+var searchCard = cardService["1234567890123456"];
+if (searchCard != null)
+{
+    Console.WriteLine($"Indexer ilə tapılan kart: {searchCard}");
+}
+else
+{
+    Console.WriteLine("Kart tapılmadı!");
+}
+
+Console.WriteLine("\n=== WITHDRAW TESTİ ===");
+var testCard1 = cardService["9876543210987654"];
+if (testCard1 != null)
+{
+    Console.WriteLine($"Withdraw-dan əvvəl: {testCard1}");
+    bool success = testCard1.WithDraw(100.0);
+    Console.WriteLine($"Withdraw uğurlu: {success}");
+    Console.WriteLine($"Withdraw-dan sonra: {testCard1}");
+}
+
+Console.WriteLine("\n=== EXPENSE AND GET BONUS TESTİ ===");
+var testCard2 = cardService["5555444433332222"];
+if (testCard2 != null)
+{
+    Console.WriteLine($"ExpenseAndGetBonus-dan əvvəl: {testCard2}");
+    bool success = testCard2.ExpenseAndGetBonus(200.0, transactionService);
+    Console.WriteLine($"ExpenseAndGetBonus uğurlu: {success}");
+    Console.WriteLine($"ExpenseAndGetBonus-dan sonra: {testCard2}");
+}
+
+Console.WriteLine("\n=== MANUAL TRANZAKSİYA ƏLAVƏSİ ===");
+var transaction1 = new Transaction
+{
+    Id = 1001,
+    CardNumber = "1234567890123456",
+    Amount = 150.0,
+    Date = DateTime.Now
+};
+
+var transaction2 = new Transaction
+{
+    Id = 1002,
+    CardNumber = "9876543210987654",
+    Amount = 75.0,
+    Date = DateTime.Now.AddDays(-1)
+};
+
+try
+{
+    transactionService.AddTransaction(transaction1);
+    transactionService.AddTransaction(transaction2);
+    
+    Console.WriteLine("Tranzaksiyalar əlavə edildi!");
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"Tranzaksiya xətası: {ex.Message}");
+}
+
+Console.WriteLine("\n=== BÜTÜN TRANZAKSİYALAR ===");
+var allTransactions = transactionService.GetAll();
+Console.WriteLine($"Cəmi tranzaksiyalar: {allTransactions.Count}");
+
+foreach (var transaction in allTransactions)
+{
+    Console.WriteLine(transaction.ToString());
+}
+
+Console.WriteLine("\n=== KART ÜZRƏ TRANZAKSİYALAR ===");
+var cardTransactions = transactionService.GetTransactionsByCard("1234567890123456");
+Console.WriteLine($"Leo kartı üçün tranzaksiyalar: {cardTransactions.Count}");
+foreach (var trans in cardTransactions)
+{
+    Console.WriteLine(trans.ToString());
+}
+
+Console.WriteLine("\n=== TARİX ARALIGINDA TRANZAKSİYALAR ===");
+var dateRangeTransactions = transactionService.GetTransactionsByDateRange(DateTime.Now.AddDays(-2), DateTime.Now);
+Console.WriteLine($"Son 2 gündəki tranzaksiyalar: {dateRangeTransactions.Count}");
+foreach (var trans in dateRangeTransactions)
+{
+    Console.WriteLine(trans.ToString());
+}
+
+Console.WriteLine("\n=== KART VƏ TARİX ARALIGINDA TRANZAKSİYALAR ===");
+var cardDateTransactions = transactionService.GetCardTransactionsByDateRange("1234567890123456", DateTime.Now.AddDays(-1), DateTime.Now);
+Console.WriteLine($"Leo kartı üçün son 1 gündəki tranzaksiyalar: {cardDateTransactions.Count}");
+foreach (var trans in cardDateTransactions)
+{
+    Console.WriteLine(trans.ToString());
+}
+
+Console.WriteLine("\n=== SƏHVLİ KART NÖMRƏSI TESTİ ===");
+try
+{
+    var invalidCard = new Card
+    {
+        Id = 999,
+        CardNumber = "123456789", // 16 rəqəmdən az
+        Balance = 100,
+        Bank = Bank.ABB
+    };
+}
+catch (ArgumentException ex)
+{
+    Console.WriteLine($"Gözlənilən xəta: {ex.Message}");
+}
+
+Console.WriteLine("\nProqram tamamlandı!");

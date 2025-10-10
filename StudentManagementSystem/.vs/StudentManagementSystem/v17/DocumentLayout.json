@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\StudentManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57D3B699-D697-468B-8A56-1A533A7D5859}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\amilm\\onedrive\\desktop\\pa201\\studentmanagementsystem\\studentmanagementsystem\\models\\studentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D3B699-D697-468B-8A56-1A533A7D5859}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\models\\studentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D3B699-D697-468B-8A56-1A533A7D5859}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\amilm\\onedrive\\desktop\\pa201\\studentmanagementsystem\\studentmanagementsystem\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D3B699-D697-468B-8A56-1A533A7D5859}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D3B699-D697-468B-8A56-1A533A7D5859}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\amilm\\onedrive\\desktop\\pa201\\studentmanagementsystem\\studentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D3B699-D697-468B-8A56-1A533A7D5859}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentManager.cs",
+              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\StudentManagementSystem\\StudentManagementSystem\\Models\\StudentManager.cs",
+              "RelativeDocumentMoniker": "StudentManagementSystem\\Models\\StudentManager.cs",
+              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\StudentManagementSystem\\StudentManagementSystem\\Models\\StudentManager.cs",
+              "RelativeToolTip": "StudentManagementSystem\\Models\\StudentManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T21:17:14.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\StudentManagementSystem\\StudentManagementSystem\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "StudentManagementSystem\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\StudentManagementSystem\\StudentManagementSystem\\Models\\Student.cs",
+              "RelativeToolTip": "StudentManagementSystem\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T21:15:50.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\StudentManagementSystem\\StudentManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "StudentManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\StudentManagementSystem\\StudentManagementSystem\\Program.cs",
+              "RelativeToolTip": "StudentManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T21:14:58.223Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

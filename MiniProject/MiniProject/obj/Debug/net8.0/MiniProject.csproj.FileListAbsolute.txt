@@ -1,0 +1,15 @@
+C:\Users\amilm\OneDrive\Desktop\Pa201\MiniProject\MiniProject\obj\Debug\net8.0\MiniProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amilm\OneDrive\Desktop\Pa201\MiniProject\MiniProject\obj\Debug\net8.0\MiniProject.AssemblyInfoInputs.cache
+C:\Users\amilm\OneDrive\Desktop\Pa201\MiniProject\MiniProject\obj\Debug\net8.0\MiniProject.AssemblyInfo.cs
+C:\Users\amilm\OneDrive\Desktop\Pa201\MiniProject\MiniProject\obj\Debug\net8.0\MiniProject.csproj.CoreCompileInputs.cache
+C:\Users\amilm\OneDrive\Desktop\Pa201\MiniProject\MiniProject\obj\Debug\net8.0\MiniProject.sourcelink.json
+C:\Users\amilm\OneDrive\Desktop\Pa201\MiniProject\MiniProject\bin\Debug\net8.0\MiniProject.exe
+C:\Users\amilm\OneDrive\Desktop\Pa201\MiniProject\MiniProject\bin\Debug\net8.0\MiniProject.deps.json
+C:\Users\amilm\OneDrive\Desktop\Pa201\MiniProject\MiniProject\bin\Debug\net8.0\MiniProject.runtimeconfig.json
+C:\Users\amilm\OneDrive\Desktop\Pa201\MiniProject\MiniProject\bin\Debug\net8.0\MiniProject.dll
+C:\Users\amilm\OneDrive\Desktop\Pa201\MiniProject\MiniProject\bin\Debug\net8.0\MiniProject.pdb
+C:\Users\amilm\OneDrive\Desktop\Pa201\MiniProject\MiniProject\obj\Debug\net8.0\MiniProject.dll
+C:\Users\amilm\OneDrive\Desktop\Pa201\MiniProject\MiniProject\obj\Debug\net8.0\refint\MiniProject.dll
+C:\Users\amilm\OneDrive\Desktop\Pa201\MiniProject\MiniProject\obj\Debug\net8.0\MiniProject.pdb
+C:\Users\amilm\OneDrive\Desktop\Pa201\MiniProject\MiniProject\obj\Debug\net8.0\MiniProject.genruntimeconfig.cache
+C:\Users\amilm\OneDrive\Desktop\Pa201\MiniProject\MiniProject\obj\Debug\net8.0\ref\MiniProject.dll

@@ -1,0 +1,105 @@
+﻿using ConsoleApp2.Models;
+using ConsoleApp2.Services;
+using ConsoleApp2.Transactions;
+using ConsoleApp2.Exceptions;
+
+var cardService = new CardService();
+var transactionService = new TransactionService();
+
+// Test kartları yaradırıq
+var card1 = new Card
+{
+    Id = 1,
+    CardNumber = "1234567890123456",
+    Balance = 1000.0,
+    Bonus = 0.0,
+    Bank = Bank.Leo
+};
+
+var card2 = new Card
+{
+    Id = 2,
+    CardNumber = "9876543210987654",
+    Balance = 2000.0,
+    Bonus = 0.0,
+    Bank = Bank.ABB
+};
+
+// Kartları əlavə et
+try
+{
+    cardService.AddCard(card1);
+    cardService.AddCard(card2);
+    Console.WriteLine("Kartlar uğurla əlavə edildi!");
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"Xəta: {ex.Message}");
+}
+
+// Bütün kartları göstər
+Console.WriteLine("\n=== BÜTÜN KARTLAR ===");
+var allCards = cardService.GetAll();
+foreach (var card in allCards)
+{
+    Console.WriteLine(card.ToString());
+    Console.WriteLine($"Maskalı: {card.MaskCardNumber()}");
+    Console.WriteLine();
+}
+
+// Indexer-i sınaqdan keçirmək
+Console.WriteLine("=== INDEXER TESTİ ===");
+var foundCard = cardService["1234567890123456"];
+if (foundCard != null)
+{
+    Console.WriteLine($"Tapıldı: {foundCard}");
+}
+
+// Pul çıxarma testi
+Console.WriteLine("\n=== WITHDRAW TESTİ ===");
+var testCard = cardService["9876543210987654"];
+if (testCard != null)
+{
+    Console.WriteLine($"Əvvəl: Balans = {testCard.Balance}");
+    bool success = testCard.WithDraw(100.0);
+    Console.WriteLine($"Pul çıxarma uğurlu: {success}");
+    Console.WriteLine($"Sonra: Balans = {testCard.Balance}");
+}
+
+// Xərc və bonus testi
+Console.WriteLine("\n=== XƏRC VƏ BONUS TESTİ ===");
+var bonusCard = cardService["1234567890123456"];
+if (bonusCard != null)
+{
+    Console.WriteLine($"Əvvəl: Balans = {bonusCard.Balance}, Bonus = {bonusCard.Bonus}");
+    bool success = bonusCard.ExpenseAndGetBonus(200.0, transactionService);
+    Console.WriteLine($"Xərc uğurlu: {success}");
+    Console.WriteLine($"Sonra: Balans = {bonusCard.Balance}, Bonus = {bonusCard.Bonus}");
+}
+
+// Bütün tranzaksiyaları göstər
+Console.WriteLine("\n=== BÜTÜN TRANZAKSİYALAR ===");
+var transactions = transactionService.GetAll();
+foreach (var transaction in transactions)
+{
+    Console.WriteLine(transaction.ToString());
+}
+
+// Səhv kart nömrəsi testi
+Console.WriteLine("\n=== SƏHV KART NÖMRƏSİ TESTİ ===");
+try
+{
+    var invalidCard = new Card
+    {
+        Id = 999,
+        CardNumber = "12345", // 16 rəqəmdən azdır
+        Balance = 100,
+        Bank = Bank.ABB
+    };
+}
+catch (ArgumentException ex)
+{
+    Console.WriteLine($"Gözlənilən xəta: {ex.Message}");
+}
+
+Console.WriteLine("\nProqram tamamlandı!");

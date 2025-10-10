@@ -1,0 +1,71 @@
+﻿using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using ConsoleApp1.Models;
+using System.ComponentModel;
+class Program
+{
+    static void Main()
+    {
+        bool running = true;
+        
+        while (running)
+        {
+            Console.Clear();
+            Console.WriteLine("=== MAIN MENU ===");
+            Console.WriteLine("1. Add Employee");
+            Console.WriteLine("2. Get Employee By id");
+            Console.WriteLine("3. Remove Employee");
+            Console.WriteLine("0. Quit");
+            Console.WriteLine("==================");
+            Console.Write("Please select an option): ");
+            
+            string choice = Console.ReadLine();
+            
+            switch (choice)
+            {
+                case "1":
+                    AddEm
+                    break;
+                    
+                case "2":
+                    Console.WriteLine("Get Employee By id");
+                    Console.WriteLine("Press any key to continue...");
+                    Console.ReadKey();
+                    break;
+                    
+                case "3":
+                    Console.WriteLine("Remove Employee");
+                    Console.WriteLine("Press any key to continue...");
+                    Console.ReadKey();
+                    break;
+                    
+               case "0":
+                    Console.WriteLine("Quit");
+                    Console.WriteLine("Goodbye!");
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid option. Please try again.");
+                    Console.WriteLine("Press any key to continue...");
+                    Console.ReadKey();
+                    break;
+            }
+            public static void AddEmployee()
+            {
+                Employee employee = new Employee();
+                Console.Write("Enter Employee Id: ");
+                employee.Id = int.Parse(Console.ReadLine());
+                Console.Write("Enter Employee Name: ");
+                employee.Name = Console.ReadLine();
+                Console.Write("Enter Employee Salary: ");
+                employee.Salary = double.Parse(Console.ReadLine());
+                Department department = new Department();
+                department.AddEmployee(employee);
+                Console.WriteLine("Employee added successfully!");
+                Console.ReadKey();
+    }
+}
+    }
+}

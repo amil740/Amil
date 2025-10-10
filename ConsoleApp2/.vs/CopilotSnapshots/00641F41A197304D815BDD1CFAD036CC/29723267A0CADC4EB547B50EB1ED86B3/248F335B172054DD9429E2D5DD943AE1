@@ -1,0 +1,97 @@
+﻿using ConsoleApp2.Exceptions;
+using ConsoleApp2.Interfaces;
+using ConsoleApp2.Models;
+using System.Data;
+using System.Text.Json;
+using System.Text.RegularExpressions;
+
+namespace ConsoleApp2.Services
+{
+    public class CardService : ICardService
+    {
+        private readonly string _filePath;
+
+        public CardService()
+        {
+            string dataDirectory = Path.Combine(Directory.GetCurrentDirectory(), "Data");
+            
+            if (!Directory.Exists(dataDirectory))
+            {
+                Directory.CreateDirectory(dataDirectory);
+            }
+            
+            _filePath = Path.Combine(dataDirectory, "cards.json");
+
+            if (!File.Exists(_filePath))
+            {
+                File.WriteAllText(_filePath, "[]");
+            }
+        }
+
+        public void AddCard(Card card)
+        {
+            var cards = GetAll();
+            
+            if (string.IsNullOrEmpty(card.CardNumber) || !IsValidCardNumber(card.CardNumber))
+            {
+                throw new InvalidCardNumberException("Kart nömrəsi mütləq 16 rəqəmdən ibarət olmalıdır");
+            }
+            
+            if (cards.Any(c => c.CardNumber == card.CardNumber))
+            {
+                throw new ConflictException($"Bu CardNumber ({card.CardNumber}) ilə kart artıq mövcuddur");
+            }
+
+            cards.Add(card);
+            SaveCards(cards);
+        }
+        
+        public Card? this[string cardNumber]
+        {
+            get
+            {
+                var cards = GetAll();
+                return cards.FirstOrDefault(c => c.CardNumber == cardNumber);
+            }
+        }
+
+        public List<Card> GetAll()
+        {
+            if (!File.Exists(_filePath))
+            { 
+                return new List<Card>();
+            }
+
+            string jsonContent = File.ReadAllText(_filePath);
+            
+            if (string.IsNullOrEmpty(jsonContent))
+            {
+                return new List<Card>();
+            }
+
+            var cards = JsonSerializer.Deserialize<List<Card>>(jsonContent);
+            return cards ?? new List<Card>();
+        }
+
+        public Card? GetById(int id)
+        {
+            var cards = GetAll();
+            return cards.FirstOrDefault(c => c.Id == id);
+        }
+        
+        private bool IsValidCardNumber(string cardNumber)
+        {
+            if (string.IsNullOrEmpty(cardNumber))
+                return false;
+                
+            Regex regex = new Regex(@"^\d{16}$");
+            return regex.IsMatch(cardNumber);
+        }
+        
+        private void SaveCards(List<Card> cards)
+        {
+            string jsonContent = JsonSerializer.Serialize(cards, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(_filePath, jsonContent);
+        }
+    }
+}

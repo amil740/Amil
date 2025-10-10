@@ -1,0 +1,61 @@
+﻿using ConsoleApp2.Interfaces;
+using ConsoleApp2.Models;
+using ConsoleApp2.Services;
+using ConsoleApp2.Transactions;
+
+
+
+Card card1 = new Card
+{
+    Id = 1,
+    CardNumber = 1234567812345678,
+    Balance = 1000,
+    Bonus = 50
+};
+Card card2 = new Card
+{
+    Id = 2,
+    CardNumber = 8765432187654321,
+    Balance = 2000,
+    Bonus = 100
+};
+Card card3 = new Card
+{
+    Id = 3,
+    CardNumber = 1122334455667788,
+    Balance = 3000,
+    Bonus = 150
+};
+List<Card> cards = new List<Card> { card1, card2, card3 };
+ITransactionService transactionService = new TransactionService();
+
+int cardNumber = CardNumber;
+
+transactionService.AddTransaction(new Transaction
+{
+    Id = 1,
+    cardNumber = (int)1234567812345678,
+    Amount = 100,
+    Date = new DateTime(2023, 1, 15)
+});
+transactionService.AddTransaction(new Transaction
+{
+    Id = 2,
+    CardNumber = 8765432187654321,
+    Amount = 200,
+    Date = new DateTime(2023, 2, 20)
+});
+transactionService.AddTransaction(new Transaction
+{
+    Id = 3,
+    CardNumber = 1234567812345678,
+    Amount = 150,
+    Date = new DateTime(2023, 3, 25)
+});
+transactionService.AddTransaction(new Transaction
+{
+    Id = 4,
+    CardNumber = 1122334455667788,
+    Amount = 300,
+    Date = new DateTime(2023, 4, 10)
+});
