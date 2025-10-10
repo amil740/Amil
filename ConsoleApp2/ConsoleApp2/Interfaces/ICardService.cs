@@ -7,10 +7,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2.Interfaces
 {
-    internal interface ICardService
+    public interface ICardService
     {
         List<Card> GetAll();
         void AddCard(Card card);
         Card? GetById(int id);
+ 
+        Card? this[string cardNumber] { get; }
     }
 }

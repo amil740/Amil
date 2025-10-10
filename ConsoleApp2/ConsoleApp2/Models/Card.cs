@@ -3,89 +3,67 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 namespace ConsoleApp2.Models
 {
+    public enum Bank
+    {
+        ABB,
+        Kapital,
+        Leo
+    }
+
     public class Card
     {
         public int Id { get; set; }
-        public double Bonus { get; set; }
         public double Balance { get; set; }
-        
-        private long _cardNumber;
-        public long CardNumber 
+        public double Bonus { get; set; }
+        private string _cardNumber = string.Empty;
+        public string CardNumber 
         {
             get => _cardNumber;
             set
             {
-                if (value.ToString().Length == 16)
+                if (IsValidCardNumber(value))
                 {
                     _cardNumber = value;
                 }
                 else
                 {
-                    throw new Exception("kart nomresi 16 character olmalidir");
+                    throw new ArgumentException("Kart nomresi 16 reqem ola bilmez");
                 }
             }
         }
         
-        public enum CardName
+        public Bank Bank { get; set; }
+
+        private bool IsValidCardNumber(string cardNumber)
         {
-            Leo,
-            Abb,
-            Kapital
+            if (string.IsNullOrEmpty(cardNumber))
+                return false;
+                
+            Regex regex = new Regex(@"^\d{16}$");
+            return regex.IsMatch(cardNumber);
         }
         
-        public void Withdraw(double amount)
+        public bool WithDraw(double amount)
         {
-            if (amount <= Balance)
+            if (amount <= 0)
+                return false;
+                
+            if (Balance >= amount)
             {
-                Console.WriteLine(true);
                 Balance -= amount;
+                return true;
             }
-            else
-            {
-                Console.WriteLine(false);
-                throw new Exception("Balansda kifayet qeder pul yoxdur");
-            }
+            
+            return false;
         }
         
         public override string ToString()
         {
-            return $"Id: {Id}, CardNumber: {CardNumber}, Balance: {Balance}, Bonus: {Bonus}";
-        }
-    }
-
-    public static class CardExtensions
-    {
-        public static Card MaskCardNumber(this Card card)
-        {
-            var cardNumberStr = card.CardNumber.ToString();
-            var maskedCardNumber = cardNumberStr.Substring(0, 4) + "00000000" + cardNumberStr.Substring(12, 4);
-            
-            return new Card
-            {
-                Id = card.Id,
-                Bonus = card.Bonus,
-                Balance = card.Balance,
-                CardNumber = long.Parse(maskedCardNumber)
-            };
-        }
-    }
-    
-    public class BonusCalculator
-    {
-        public static double CalculateBonus(Card card)
-        {
-            double bonusPercentage = (Card.CardName)card.Id switch
-            {
-                Card.CardName.Leo => 0.04,
-                Card.CardName.Abb => 0.02,
-                Card.CardName.Kapital => 0.05,
-                _ => 0.0
-            };
-
-            return card.Balance * bonusPercentage;
+            return $"Id: {Id}, CardNumber: {CardNumber}, Balance: {Balance}, Bonus: {Bonus}, Bank: {Bank}";
         }
     }
 }

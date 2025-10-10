@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "Balance": 1500.5,
+    "Bonus": 0,
+    "CardNumber": "1234567890123456",
+    "Bank": 2
+  },
+  {
+    "Id": 2,
+    "Balance": 2300.75,
+    "Bonus": 0,
+    "CardNumber": "9876543210987654",
+    "Bank": 0
+  },
+  {
+    "Id": 3,
+    "Balance": 800.25,
+    "Bonus": 0,
+    "CardNumber": "5555444433332222",
+    "Bank": 1
+  }
+]

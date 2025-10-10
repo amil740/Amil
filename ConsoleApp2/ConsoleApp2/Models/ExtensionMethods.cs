@@ -1,43 +1,63 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ConsoleApp2.Models;
+using ConsoleApp2.Services;
+using ConsoleApp2.Transactions;
 
 namespace ConsoleApp2.Models
 {
     public static class ExtensionMethods
     {
-        public static string GetMaskedCardNumber(this Card card)
+        
+        public static string MaskCardNumber(this Card card)
         {
-            var cardNumberStr = card.CardNumber.ToString();
-
-            if (cardNumberStr.Length != 16)
-            {
-                throw new Exception("Card number must be exactly 16 digits.");
-            }
-
-            return cardNumberStr.Substring(0, 4) + " **** **** " + cardNumberStr.Substring(12, 4);
+            if (string.IsNullOrEmpty(card.CardNumber) || card.CardNumber.Length != 16)
+                return card.CardNumber ?? string.Empty;
+            
+            return $"{card.CardNumber.Substring(0, 4)} **** **** {card.CardNumber.Substring(12, 4)}";
         }
-
-        public static void ExpenseAndGetBonus(this Card card, double amount)
+      
+        public static bool ExpenseAndGetBonus(this Card card, double amount, TransactionService? transactionService = null)
         {
-            if (card.Balance < amount)
-            {
-                throw new InvalidOperationException("Insufficient balance for this transaction.");
-            }
+            if (amount <= 0)
+                return false;
+                
+            if (!card.WithDraw(amount))
+                return false;
             
-            card.Balance -= amount;
-            
-            double bonusPercentage = (Card.CardName)card.Id switch
+
+            double bonusPercentage = card.Bank switch
             {
-                Card.CardName.Leo => 0.04,
-                Card.CardName.Abb => 0.02,
-                Card.CardName.Kapital => 0.05,
+                Bank.ABB => 0.02,      
+                Bank.Leo => 0.04,     
+                Bank.Kapital => 0.05,  
                 _ => 0.0
             };
             
             card.Bonus += amount * bonusPercentage;
+            
+            if (transactionService != null)
+            {
+                var transaction = new Transaction
+                {
+                    Id = new Random().Next(1000, 9999), 
+                    CardNumber = card.CardNumber,
+                    Amount = amount,
+                    Date = DateTime.Now
+                };
+                
+                try
+                {
+                    transactionService.AddTransaction(transaction);
+                }
+                catch
+                {
+                    card.Balance += amount;
+                    card.Bonus -= amount * bonusPercentage;
+                    return false;
+                }
+            }
+            
+            return true;
         }
     }
 }

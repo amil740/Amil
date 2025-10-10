@@ -10,13 +10,9 @@ namespace ConsoleApp2.Interfaces
     public interface ITransactionService
     {
         public List<Transaction> GetAll();
-
         public void AddTransaction(Transaction transaction);
-        
-        public List<Transaction> GetTransactionsByCard(int cardNumber);
-        
+        public List<Transaction> GetTransactionsByCard(string cardNumber);
         public List<Transaction> GetTransactionsByDateRange(DateTime startDate, DateTime endDate);
-        
-        public List<Transaction> GetCardTransactionsByDateRange(int cardNumber, DateTime startDate, DateTime endDate);
+        public List<Transaction> GetCardTransactionsByDateRange(string cardNumber, DateTime startDate, DateTime endDate);
     }
 }

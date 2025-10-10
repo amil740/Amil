@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2.Exceptions
 {
-    internal class InvalidCardNumberException: Exception
+    public class InvalidCardNumberException : Exception
     {
         public InvalidCardNumberException(string message) : base(message) { }
     }

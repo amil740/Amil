@@ -9,7 +9,7 @@ namespace ConsoleApp2.Transactions
     public class Transaction
     {
         public int Id { get; set; }
-        public int CardNumber { get; set; }
+        public string CardNumber { get; set; } = string.Empty;
         public double Amount { get; set; }
         public DateTime Date { get; set; }
         

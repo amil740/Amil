@@ -4,45 +4,76 @@ using System.Linq;
 using ConsoleApp2.Interfaces;
 using ConsoleApp2.Transactions;
 using ConsoleApp2.Exceptions;
+using System.Text.Json;
+using System.IO;
 
 namespace ConsoleApp2.Services
 {
     public class TransactionService : ITransactionService
     {
-        private List<Transaction> _transactions;
+        private readonly string _filePath;
 
         public TransactionService()
         {
-            _transactions = new List<Transaction>();
+            string dataDirectory = Path.Combine(Directory.GetCurrentDirectory(), "Data");
+            if (!Directory.Exists(dataDirectory))
+            {
+                Directory.CreateDirectory(dataDirectory);
+            }
+            
+            _filePath = Path.Combine(dataDirectory, "transactions.json");
+
+            if (!File.Exists(_filePath))
+            {
+                File.WriteAllText(_filePath, "[]");
+            }
         }
 
         public List<Transaction> GetAll()
         {
-            return _transactions.ToList();
+            if (!File.Exists(_filePath))
+            {
+                return new List<Transaction>();
+            }
+
+            string jsonContent = File.ReadAllText(_filePath);
+            
+            if (string.IsNullOrEmpty(jsonContent))
+            {
+                return new List<Transaction>();
+            }
+
+            var transactions = JsonSerializer.Deserialize<List<Transaction>>(jsonContent);
+            return transactions ?? new List<Transaction>();
         }
+
         public void AddTransaction(Transaction transaction)
         {
             if (transaction == null)
             {
-                throw new ArgumentNullException(nameof(transaction), "Tranzaksiya null ola bilməz");
+                throw new ArgumentNullException(nameof(transaction), "tranziksiye null ola bilmez");
             }
 
-            if (_transactions.Any(t => t.Id == transaction.Id))
+            var transactions = GetAll();
+
+            if (transactions.Any(t => t.Id == transaction.Id))
             {
-                throw new ConflictException($"Bu Id ({transaction.Id}) ilə tranzaksiya artıq mövcuddur");
+                throw new ConflictException($"Bu Id ({transaction.Id}) ile tranziksiya artig movcuddur");
             }
 
             if (transaction.Amount <= 0)
             {
-                throw new ArgumentException("Tranzaksiya məbləği müsbət olmalıdır", nameof(transaction));
+                throw new ArgumentException("Tranziksiya meblegi 0 dan boyuk olmalidir", nameof(transaction));
             }
 
-            _transactions.Add(transaction);
+            transactions.Add(transaction);
+            SaveTransactions(transactions);
         }
 
-        public List<Transaction> GetTransactionsByCard(int cardNumber)
+        public List<Transaction> GetTransactionsByCard(string cardNumber)
         {
-            return _transactions
+            var transactions = GetAll();
+            return transactions
                 .Where(t => t.CardNumber == cardNumber)
                 .OrderByDescending(t => t.Date)
                 .ToList();
@@ -52,31 +83,34 @@ namespace ConsoleApp2.Services
         {
             if (startDate > endDate)
             {
-                throw new ArgumentException("Başlama tarixi bitiş tarixindən böyük ola bilməz");
+                throw new ArgumentException("baslama tarixi bitis tarixinden boyuk ola bilmez");
             }
 
-            return _transactions
+            var transactions = GetAll();
+            return transactions
                 .Where(t => t.Date >= startDate && t.Date <= endDate)
                 .OrderByDescending(t => t.Date)
                 .ToList();
         }
 
-        public List<Transaction> GetCardTransactionsByDateRange(int cardNumber, DateTime startDate, DateTime endDate)
+        public List<Transaction> GetCardTransactionsByDateRange(string cardNumber, DateTime startDate, DateTime endDate)
         {
             if (startDate > endDate)
             {
-                throw new ArgumentException("Başlama tarixi bitiş tarixindən böyük ola bilməz");
+                throw new ArgumentException("baslama tarixi bitis tarixinden boyuk ola bilmez");
             }
 
-            return _transactions
+            var transactions = GetAll();
+            return transactions
                 .Where(t => t.CardNumber == cardNumber && t.Date >= startDate && t.Date <= endDate)
                 .OrderByDescending(t => t.Date)
                 .ToList();
         }
 
-        public List<Transaction> GetByCardNumber(int cardNumber)
+        private void SaveTransactions(List<Transaction> transactions)
         {
-            return GetTransactionsByCard(cardNumber);
+            string jsonContent = JsonSerializer.Serialize(transactions, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(_filePath, jsonContent);
         }
     }
 }

@@ -3,15 +3,18 @@ using ConsoleApp2.Interfaces;
 using ConsoleApp2.Models;
 using System.Data;
 using System.Text.Json;
+using System.Text.RegularExpressions;
+
 namespace ConsoleApp2.Services
 {
-    internal class CardService : ICardService
+    public class CardService : ICardService
     {
         private readonly string _filePath;
 
         public CardService()
         {
             string dataDirectory = Path.Combine(Directory.GetCurrentDirectory(), "Data");
+            
             if (!Directory.Exists(dataDirectory))
             {
                 Directory.CreateDirectory(dataDirectory);
@@ -29,23 +32,21 @@ namespace ConsoleApp2.Services
         {
             var cards = GetAll();
             
-            if (card.Id == 0)
+            if (string.IsNullOrEmpty(card.CardNumber) || !IsValidCardNumber(card.CardNumber))
             {
-                throw new ConflictException("Card Id cannot be zero.");
+                throw new InvalidCardNumberException("Kart nömrəsi mütləq 16 rəqəmdən ibarət olmalıdır");
             }
-            if (card.CardNumber.ToString().Length != 16)
+            
+            if (cards.Any(c => c.CardNumber == card.CardNumber))
             {
-                throw new InvalidCardNumberException("Card number must be 16 characters long.");
-            }
-            if (cards.Any(c => c.Id == card.Id))
-            {
-                throw new ConflictException($"Bu id de kart{card.Id} artig var.");
+                throw new ConflictException($"Bu CardNumber ({card.CardNumber}) ilə kart artıq mövcuddur");
             }
 
             cards.Add(card);
             SaveCards(cards);
         }
-        public Card? this[int cardNumber]
+        
+        public Card? this[string cardNumber]
         {
             get
             {
@@ -53,32 +54,43 @@ namespace ConsoleApp2.Services
                 return cards.FirstOrDefault(c => c.CardNumber == cardNumber);
             }
         }
-            public List<Card> GetAll()
-            {
-                if (!File.Exists(_filePath))
-                { 
-                    return new List<Card>();
-                }
 
-                string jsonContent = File.ReadAllText(_filePath);
-            
-                if (string.IsNullOrEmpty(jsonContent))
-                {
-                    return new List<Card>();
-                }
-
-                var cards = JsonSerializer.Deserialize<List<Card>>(jsonContent);
-                return cards ?? new List<Card>();
+        public List<Card> GetAll()
+        {
+            if (!File.Exists(_filePath))
+            { 
+                return new List<Card>();
             }
+
+            string jsonContent = File.ReadAllText(_filePath);
+            
+            if (string.IsNullOrEmpty(jsonContent))
+            {
+                return new List<Card>();
+            }
+
+            var cards = JsonSerializer.Deserialize<List<Card>>(jsonContent);
+            return cards ?? new List<Card>();
+        }
 
         public Card? GetById(int id)
         {
             var cards = GetAll();
             return cards.FirstOrDefault(c => c.Id == id);
         }
+        
+        private bool IsValidCardNumber(string cardNumber)
+        {
+            if (string.IsNullOrEmpty(cardNumber))
+                return false;
+                
+            Regex regex = new Regex(@"^\d{16}$");
+            return regex.IsMatch(cardNumber);
+        }
+        
         private void SaveCards(List<Card> cards)
         {
-            string jsonContent = JsonSerializer.Serialize(cards);
+            string jsonContent = JsonSerializer.Serialize(cards, new JsonSerializerOptions { WriteIndented = true });
             File.WriteAllText(_filePath, jsonContent);
         }
     }
