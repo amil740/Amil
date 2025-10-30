@@ -66,6 +66,14 @@ namespace OrmPractice
                 {
                     Console.WriteLine($"ID: {s.Id}, Ad: {s.Name}, Yas: {s.Age}, Qrup ID: {s.GroupId}");
                 }
+                
+                var studentToUpdate = context.Students.FirstOrDefault(s => s.Id == student1.Id);
+                if (studentToUpdate != null)
+                {
+                    studentToUpdate.Age = 23;
+                    context.SaveChanges();
+                }
+
 
             }
         }
