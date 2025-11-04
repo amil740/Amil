@@ -1,0 +1,12 @@
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.DTOs\bin\Debug\net8.0\AcademyApp.Core.DTOs.deps.json
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.DTOs\bin\Debug\net8.0\AcademyApp.Core.DTOs.dll
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.DTOs\bin\Debug\net8.0\AcademyApp.Core.DTOs.pdb
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.DTOs\obj\Debug\net8.0\AcademyApp.Core.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.DTOs\obj\Debug\net8.0\AcademyApp.Core.DTOs.AssemblyInfoInputs.cache
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.DTOs\obj\Debug\net8.0\AcademyApp.Core.DTOs.AssemblyInfo.cs
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.DTOs\obj\Debug\net8.0\AcademyApp.Core.DTOs.csproj.CoreCompileInputs.cache
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.DTOs\obj\Debug\net8.0\AcademyApp.Core.DTOs.sourcelink.json
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.DTOs\obj\Debug\net8.0\AcademyApp.Core.DTOs.dll
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.DTOs\obj\Debug\net8.0\refint\AcademyApp.Core.DTOs.dll
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.DTOs\obj\Debug\net8.0\AcademyApp.Core.DTOs.pdb
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.DTOs\obj\Debug\net8.0\ref\AcademyApp.Core.DTOs.dll

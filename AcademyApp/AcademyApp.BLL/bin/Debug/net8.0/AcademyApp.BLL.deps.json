@@ -1,0 +1,87 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AcademyApp.BLL/1.0.0": {
+        "dependencies": {
+          "AcademyApp.Application.Services": "1.0.0",
+          "AcademyApp.BLL.DTOs": "1.0.0",
+          "AcademyApp.Core.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "AcademyApp.BLL.dll": {}
+        }
+      },
+      "AcademyApp.Application.Services/1.0.0": {
+        "dependencies": {
+          "AcademyApp.Core.Entities": "1.0.0",
+          "AcademyApp.Core.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "AcademyApp.Application.Services.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AcademyApp.BLL.DTOs/1.0.0": {
+        "runtime": {
+          "AcademyApp.BLL.DTOs.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AcademyApp.Core.Entities/1.0.0": {
+        "runtime": {
+          "AcademyApp.Core.Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AcademyApp.Core.Interfaces/1.0.0": {
+        "dependencies": {
+          "AcademyApp.Core.Entities": "1.0.0"
+        },
+        "runtime": {
+          "AcademyApp.Core.Interfaces.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AcademyApp.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AcademyApp.Application.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AcademyApp.BLL.DTOs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AcademyApp.Core.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AcademyApp.Core.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

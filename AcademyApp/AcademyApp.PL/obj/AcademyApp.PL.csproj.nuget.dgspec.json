@@ -1,0 +1,382 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.PL\\AcademyApp.PL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Application.Services\\AcademyApp.Application.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Application.Services\\AcademyApp.Application.Services.csproj",
+        "projectName": "AcademyApp.Application.Services",
+        "projectPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Application.Services\\AcademyApp.Application.Services.csproj",
+        "packagesPath": "C:\\Users\\amilm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Application.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\amilm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Entities\\AcademyApp.Core.Entities.csproj": {
+                "projectPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Entities\\AcademyApp.Core.Entities.csproj"
+              },
+              "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Interfaces\\AcademyApp.Core.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Interfaces\\AcademyApp.Core.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.2.25502.107/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Entities\\AcademyApp.Core.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Entities\\AcademyApp.Core.Entities.csproj",
+        "projectName": "AcademyApp.Core.Entities",
+        "projectPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Entities\\AcademyApp.Core.Entities.csproj",
+        "packagesPath": "C:\\Users\\amilm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\amilm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.2.25502.107/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Interfaces\\AcademyApp.Core.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Interfaces\\AcademyApp.Core.Interfaces.csproj",
+        "projectName": "AcademyApp.Core.Interfaces",
+        "projectPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Interfaces\\AcademyApp.Core.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\amilm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\amilm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Entities\\AcademyApp.Core.Entities.csproj": {
+                "projectPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Entities\\AcademyApp.Core.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.2.25502.107/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Infrastructure.Data\\AcademyApp.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Infrastructure.Data\\AcademyApp.Infrastructure.Data.csproj",
+        "projectName": "AcademyApp.Infrastructure.Data",
+        "projectPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Infrastructure.Data\\AcademyApp.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\amilm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\amilm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Entities\\AcademyApp.Core.Entities.csproj": {
+                "projectPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Entities\\AcademyApp.Core.Entities.csproj"
+              },
+              "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Interfaces\\AcademyApp.Core.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Interfaces\\AcademyApp.Core.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.2.25502.107/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.PL\\AcademyApp.PL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.PL\\AcademyApp.PL.csproj",
+        "projectName": "AcademyApp.PL",
+        "projectPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.PL\\AcademyApp.PL.csproj",
+        "packagesPath": "C:\\Users\\amilm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.PL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\amilm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Application.Services\\AcademyApp.Application.Services.csproj": {
+                "projectPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Application.Services\\AcademyApp.Application.Services.csproj"
+              },
+              "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Interfaces\\AcademyApp.Core.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Interfaces\\AcademyApp.Core.Interfaces.csproj"
+              },
+              "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Infrastructure.Data\\AcademyApp.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Infrastructure.Data\\AcademyApp.Infrastructure.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.22.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.2.25502.107/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

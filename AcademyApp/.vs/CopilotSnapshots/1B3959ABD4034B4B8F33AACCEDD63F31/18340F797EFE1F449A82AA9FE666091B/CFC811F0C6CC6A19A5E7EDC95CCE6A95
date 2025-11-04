@@ -1,0 +1,157 @@
+﻿using Microsoft.Extensions.DependencyInjection;
+using AcademyApp.Core.Entities;
+using AcademyApp.Core.Interfaces;
+using AcademyApp.Application.Services;
+using AcademyApp.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
+
+// Build dependency injection container
+var services = new ServiceCollection();
+
+// Add DbContext
+services.AddDbContext<AcademyDbContext>(options =>
+    options.UseSqlServer("Server=Amil;Database=AcademyDb;Trusted_Connection=True;TrustServerCertificate=True;"));
+
+// Add Infrastructure services
+services.AddScoped<IUnitOfWork, UnitOfWork>();
+services.AddScoped<IGroupRepository>(sp => sp.GetRequiredService<IUnitOfWork>().GroupRepository);
+
+// Add Application services
+services.AddScoped<IGroupService, GroupService>();
+
+// Build service provider
+var serviceProvider = services.BuildServiceProvider();
+
+// Get the group service
+var groupService = serviceProvider.GetRequiredService<IGroupService>();
+
+Console.WriteLine("=== Academy App - Group Management ===\n");
+
+// Example operations
+await CreateGroupExample(groupService);
+await GetAllGroupsExample(groupService);
+await GetGroupByIdExample(groupService);
+await UpdateGroupExample(groupService);
+await DeleteGroupExample(groupService);
+
+Console.WriteLine("\n=== Operations Complete ===");
+
+// Method examples
+async Task CreateGroupExample(IGroupService service)
+{
+    Console.WriteLine("📝 Creating a new group...");
+    try
+    {
+        var newGroup = new Group
+        {
+       Name = "Grade 10-A",
+          Description = "Mathematics and Science stream",
+        Limit = 40
+        };
+
+ var createdGroup = await service.CreateGroupAsync(newGroup);
+      Console.WriteLine($"✅ Group created: ID={createdGroup.Id}, Name={createdGroup.Name}\n");
+    }
+    catch (Exception ex)
+    {
+    Console.WriteLine($"❌ Error: {ex.Message}\n");
+    }
+}
+
+async Task GetAllGroupsExample(IGroupService service)
+{
+    Console.WriteLine("📋 Fetching all groups...");
+    try
+ {
+        var groups = await service.GetAllGroupsAsync();
+        var groupList = groups.ToList();
+
+        if (groupList.Count == 0)
+        {
+ Console.WriteLine("No groups found.\n");
+        }
+        else
+        {
+   Console.WriteLine($"Found {groupList.Count} group(s):");
+            foreach (var group in groupList)
+    {
+     Console.WriteLine($"  - ID: {group.Id}, Name: {group.Name}, Limit: {group.Limit}");
+     }
+            Console.WriteLine();
+  }
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"❌ Error: {ex.Message}\n");
+    }
+}
+
+async Task GetGroupByIdExample(IGroupService service)
+{
+    Console.WriteLine("🔍 Fetching group by ID (ID=1)...");
+try
+    {
+        var group = await service.GetGroupByIdAsync(1);
+
+        if (group == null)
+        {
+  Console.WriteLine("Group not found.\n");
+        }
+     else
+        {
+      Console.WriteLine($"✅ Found: {group.Name} - {group.Description}\n");
+        }
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"❌ Error: {ex.Message}\n");
+    }
+}
+
+async Task UpdateGroupExample(IGroupService service)
+{
+    Console.WriteLine("✏️ Updating group (ID=1)...");
+    try
+    {
+ var group = await service.GetGroupByIdAsync(1);
+
+        if (group != null)
+        {
+            group.Description = "Updated description for Grade 10-A";
+            group.Limit = 45;
+
+            var updated = await service.UpdateGroupAsync(group);
+    Console.WriteLine($"✅ Group updated: {updated.Name}, New Limit: {updated.Limit}\n");
+ }
+        else
+        {
+   Console.WriteLine("Group not found for update.\n");
+        }
+}
+    catch (Exception ex)
+    {
+        Console.WriteLine($"❌ Error: {ex.Message}\n");
+    }
+}
+
+async Task DeleteGroupExample(IGroupService service)
+{
+    Console.WriteLine("🗑️ Deleting group (ID=1)...");
+ try
+    {
+        var deleted = await service.DeleteGroupAsync(1);
+
+        if (deleted)
+        {
+            Console.WriteLine("✅ Group deleted successfully.\n");
+        }
+        else
+        {
+   Console.WriteLine("Group not found for deletion.\n");
+        }
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"❌ Error: {ex.Message}\n");
+    }
+}

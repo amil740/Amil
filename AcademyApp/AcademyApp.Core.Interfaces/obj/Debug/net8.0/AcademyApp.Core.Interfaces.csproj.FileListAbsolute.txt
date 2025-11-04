@@ -1,0 +1,16 @@
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Interfaces\bin\Debug\net8.0\AcademyApp.Core.Interfaces.deps.json
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Interfaces\bin\Debug\net8.0\AcademyApp.Core.Interfaces.dll
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Interfaces\bin\Debug\net8.0\AcademyApp.Core.Interfaces.pdb
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Interfaces\bin\Debug\net8.0\AcademyApp.Core.Entities.dll
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Interfaces\bin\Debug\net8.0\AcademyApp.Core.Entities.pdb
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Interfaces\obj\Debug\net8.0\AcademyApp.Core.Interfaces.csproj.AssemblyReference.cache
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Interfaces\obj\Debug\net8.0\AcademyApp.Core.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Interfaces\obj\Debug\net8.0\AcademyApp.Core.Interfaces.AssemblyInfoInputs.cache
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Interfaces\obj\Debug\net8.0\AcademyApp.Core.Interfaces.AssemblyInfo.cs
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Interfaces\obj\Debug\net8.0\AcademyApp.Core.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Interfaces\obj\Debug\net8.0\AcademyApp.Core.Interfaces.sourcelink.json
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Interfaces\obj\Debug\net8.0\AcademyA.BDFE8A58.Up2Date
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Interfaces\obj\Debug\net8.0\AcademyApp.Core.Interfaces.dll
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Interfaces\obj\Debug\net8.0\refint\AcademyApp.Core.Interfaces.dll
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Interfaces\obj\Debug\net8.0\AcademyApp.Core.Interfaces.pdb
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Interfaces\obj\Debug\net8.0\ref\AcademyApp.Core.Interfaces.dll

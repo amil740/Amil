@@ -1,0 +1,12 @@
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Entities\bin\Debug\net8.0\AcademyApp.Core.Entities.deps.json
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Entities\bin\Debug\net8.0\AcademyApp.Core.Entities.dll
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Entities\bin\Debug\net8.0\AcademyApp.Core.Entities.pdb
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Entities\obj\Debug\net8.0\AcademyApp.Core.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Entities\obj\Debug\net8.0\AcademyApp.Core.Entities.AssemblyInfoInputs.cache
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Entities\obj\Debug\net8.0\AcademyApp.Core.Entities.AssemblyInfo.cs
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Entities\obj\Debug\net8.0\AcademyApp.Core.Entities.csproj.CoreCompileInputs.cache
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Entities\obj\Debug\net8.0\AcademyApp.Core.Entities.sourcelink.json
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Entities\obj\Debug\net8.0\AcademyApp.Core.Entities.dll
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Entities\obj\Debug\net8.0\refint\AcademyApp.Core.Entities.dll
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Entities\obj\Debug\net8.0\AcademyApp.Core.Entities.pdb
+C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core.Entities\obj\Debug\net8.0\ref\AcademyApp.Core.Entities.dll

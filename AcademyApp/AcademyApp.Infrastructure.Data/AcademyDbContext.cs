@@ -1,0 +1,27 @@
+using AcademyApp.Core.Entities;
+using Microsoft.EntityFrameworkCore;
+
+namespace AcademyApp.Infrastructure.Data
+{
+    public class AcademyDbContext : DbContext
+    {
+        public DbSet<Group> Groups { get; set; }
+
+        public AcademyDbContext(DbContextOptions<AcademyDbContext> options) : base(options)
+        {
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            // Configure Group entity
+            modelBuilder.Entity<Group>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Name).IsRequired().HasMaxLength(100);
+                entity.Property(e => e.Description).IsRequired().HasMaxLength(500);
+            });
+        }
+    }
+}
