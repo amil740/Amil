@@ -16,10 +16,6 @@ C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.DLL\obj\Debug\net8.0
 C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.DLL\obj\Debug\net8.0\AcademyApp.DLL.pdb
 C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.DLL\obj\Debug\net8.0\AcademyApp.DLL.genruntimeconfig.cache
 C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.DLL\obj\Debug\net8.0\ref\AcademyApp.DLL.dll
-C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.DLL\bin\Debug\net8.0\AcademyApp.Core.DTOs.dll
-C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.DLL\bin\Debug\net8.0\AcademyApp.DLL.DTOs.dll
-C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.DLL\bin\Debug\net8.0\AcademyApp.DLL.DTOs.pdb
-C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.DLL\bin\Debug\net8.0\AcademyApp.Core.DTOs.pdb
 C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.DLL\bin\Debug\net8.0\AcademyApp.Core.Entities.dll
 C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.DLL\bin\Debug\net8.0\AcademyApp.Core.Interfaces.dll
 C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.DLL\bin\Debug\net8.0\AcademyApp.Infrastructure.Data.dll

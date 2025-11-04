@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\AcademyApp.BLL.DTOs\AcademyApp.BLL.DTOs.csproj" />
     <ProjectReference Include="..\AcademyApp.Application.Services\AcademyApp.Application.Services.csproj" />
     <ProjectReference Include="..\AcademyApp.Core.Interfaces\AcademyApp.Core.Interfaces.csproj" />
   </ItemGroup>

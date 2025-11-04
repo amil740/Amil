@@ -10,7 +10,6 @@
         "dependencies": {
           "AcademyApp.Core": "1.0.0",
           "AcademyApp.Core.Interfaces": "1.0.0",
-          "AcademyApp.DLL.DTOs": "1.0.0",
           "AcademyApp.Infrastructure.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.0"
@@ -906,19 +905,8 @@
         }
       },
       "AcademyApp.Core/1.0.0": {
-        "dependencies": {
-          "AcademyApp.Core.DTOs": "1.0.0"
-        },
         "runtime": {
           "AcademyApp.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "AcademyApp.Core.DTOs/1.0.0": {
-        "runtime": {
-          "AcademyApp.Core.DTOs.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -938,14 +926,6 @@
         },
         "runtime": {
           "AcademyApp.Core.Interfaces.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "AcademyApp.DLL.DTOs/1.0.0": {
-        "runtime": {
-          "AcademyApp.DLL.DTOs.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1383,22 +1363,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AcademyApp.Core.DTOs/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "AcademyApp.Core.Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "AcademyApp.Core.Interfaces/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "AcademyApp.DLL.DTOs/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

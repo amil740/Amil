@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AcademyApp.Core\AcademyApp.Core.csproj" />
-    <ProjectReference Include="..\AcademyApp.DLL.DTOs\AcademyApp.DLL.DTOs.csproj" />
     <ProjectReference Include="..\AcademyApp.Infrastructure.Data\AcademyApp.Infrastructure.Data.csproj" />
     <ProjectReference Include="..\AcademyApp.Core.Interfaces\AcademyApp.Core.Interfaces.csproj" />
   </ItemGroup>

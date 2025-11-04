@@ -1504,24 +1504,11 @@
       "AcademyApp.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "AcademyApp.Core.DTOs": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/AcademyApp.Core.dll": {}
         },
         "runtime": {
           "bin/placeholder/AcademyApp.Core.dll": {}
-        }
-      },
-      "AcademyApp.Core.DTOs/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/AcademyApp.Core.DTOs.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AcademyApp.Core.DTOs.dll": {}
         }
       },
       "AcademyApp.Core.Entities/1.0.0": {
@@ -1545,16 +1532,6 @@
         },
         "runtime": {
           "bin/placeholder/AcademyApp.Core.Interfaces.dll": {}
-        }
-      },
-      "AcademyApp.DLL.DTOs/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/AcademyApp.DLL.DTOs.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AcademyApp.DLL.DTOs.dll": {}
         }
       },
       "AcademyApp.Infrastructure.Data/1.0.0": {
@@ -4116,11 +4093,6 @@
       "path": "../AcademyApp.Core/AcademyApp.Core.csproj",
       "msbuildProject": "../AcademyApp.Core/AcademyApp.Core.csproj"
     },
-    "AcademyApp.Core.DTOs/1.0.0": {
-      "type": "project",
-      "path": "../AcademyApp.Core.DTOs/AcademyApp.Core.DTOs.csproj",
-      "msbuildProject": "../AcademyApp.Core.DTOs/AcademyApp.Core.DTOs.csproj"
-    },
     "AcademyApp.Core.Entities/1.0.0": {
       "type": "project",
       "path": "../AcademyApp.Core.Entities/AcademyApp.Core.Entities.csproj",
@@ -4130,11 +4102,6 @@
       "type": "project",
       "path": "../AcademyApp.Core.Interfaces/AcademyApp.Core.Interfaces.csproj",
       "msbuildProject": "../AcademyApp.Core.Interfaces/AcademyApp.Core.Interfaces.csproj"
-    },
-    "AcademyApp.DLL.DTOs/1.0.0": {
-      "type": "project",
-      "path": "../AcademyApp.DLL.DTOs/AcademyApp.DLL.DTOs.csproj",
-      "msbuildProject": "../AcademyApp.DLL.DTOs/AcademyApp.DLL.DTOs.csproj"
     },
     "AcademyApp.Infrastructure.Data/1.0.0": {
       "type": "project",
@@ -4146,7 +4113,6 @@
     "net8.0": [
       "AcademyApp.Core >= 1.0.0",
       "AcademyApp.Core.Interfaces >= 1.0.0",
-      "AcademyApp.DLL.DTOs >= 1.0.0",
       "AcademyApp.Infrastructure.Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.0"
@@ -4190,9 +4156,6 @@
             },
             "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core\\AcademyApp.Core.csproj": {
               "projectPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core\\AcademyApp.Core.csproj"
-            },
-            "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.DLL.DTOs\\AcademyApp.DLL.DTOs.csproj": {
-              "projectPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.DLL.DTOs\\AcademyApp.DLL.DTOs.csproj"
             },
             "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Infrastructure.Data\\AcademyApp.Infrastructure.Data.csproj": {
               "projectPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Infrastructure.Data\\AcademyApp.Infrastructure.Data.csproj"

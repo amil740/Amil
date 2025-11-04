@@ -3,48 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amilm\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1948470075\\GroupServiceDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\PROGRAM_SETUP.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PROGRAM_SETUP.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\ARCHITECTURE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ARCHITECTURE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Interfaces\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcademyApp.Core.Interfaces\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.DLL.DTOs\\GroupDataDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcademyApp.DLL.DTOs\\GroupDataDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59075533-3E08-4549-93AC-C85167AB911F}|AcademyApp.DLL\\AcademyApp.DLL.csproj|c:\\users\\amilm\\onedrive\\desktop\\pa201\\academyapp\\academyapp.dll\\data\\academydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59075533-3E08-4549-93AC-C85167AB911F}|AcademyApp.DLL\\AcademyApp.DLL.csproj|solutionrelative:academyapp.dll\\data\\academydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C8ACD55-FB2B-410C-9CF5-61CD6BAF6301}|AcademyApp.Core\\AcademyApp.Core.csproj|c:\\users\\amilm\\onedrive\\desktop\\pa201\\academyapp\\academyapp.core\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C8ACD55-FB2B-410C-9CF5-61CD6BAF6301}|AcademyApp.Core\\AcademyApp.Core.csproj|solutionrelative:academyapp.core\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5C8ACD55-FB2B-410C-9CF5-61CD6BAF6301}|AcademyApp.Core\\AcademyApp.Core.csproj|c:\\users\\amilm\\onedrive\\desktop\\pa201\\academyapp\\academyapp.core\\academyapp.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5C8ACD55-FB2B-410C-9CF5-61CD6BAF6301}|AcademyApp.Core\\AcademyApp.Core.csproj|solutionrelative:academyapp.core\\academyapp.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C8ACD55-FB2B-410C-9CF5-61CD6BAF6301}|AcademyApp.Core\\AcademyApp.Core.csproj|c:\\users\\amilm\\onedrive\\desktop\\pa201\\academyapp\\academyapp.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C8ACD55-FB2B-410C-9CF5-61CD6BAF6301}|AcademyApp.Core\\AcademyApp.Core.csproj|solutionrelative:academyapp.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B658666-15F0-44B7-A82A-9A00C75187A1}|AcademyApp.PL\\AcademyApp.PL.csproj|c:\\users\\amilm\\onedrive\\desktop\\pa201\\academyapp\\academyapp.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B658666-15F0-44B7-A82A-9A00C75187A1}|AcademyApp.PL\\AcademyApp.PL.csproj|solutionrelative:academyapp.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.DTOs\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcademyApp.Core.DTOs\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amilm\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\620333022\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.BLL.DTOs\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcademyApp.BLL.DTOs\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amilm\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1347516949\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.DLL.DTOs\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcademyApp.DLL.DTOs\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amilm\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1347314263\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.DTOs\\GroupDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,14 +47,60 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcademyApp.BLL.DTOs\\GroupServiceDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.DLL.DTOs\\GroupDataDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcademyApp.DLL.DTOs\\GroupDataDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C8ACD55-FB2B-410C-9CF5-61CD6BAF6301}|AcademyApp.Core\\AcademyApp.Core.csproj|c:\\users\\amilm\\onedrive\\desktop\\pa201\\academyapp\\academyapp.core\\dtos\\groupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C8ACD55-FB2B-410C-9CF5-61CD6BAF6301}|AcademyApp.Core\\AcademyApp.Core.csproj|solutionrelative:academyapp.core\\dtos\\groupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amilm\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\620456204\\GroupDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76320698-F611-4525-B473-FE0531CFC783}|AcademyApp.BLL\\AcademyApp.BLL.csproj|c:\\users\\amilm\\onedrive\\desktop\\pa201\\academyapp\\academyapp.bll\\dtos\\groupservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76320698-F611-4525-B473-FE0531CFC783}|AcademyApp.BLL\\AcademyApp.BLL.csproj|solutionrelative:academyapp.bll\\dtos\\groupservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amilm\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1948267389\\GroupDataDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59075533-3E08-4549-93AC-C85167AB911F}|AcademyApp.DLL\\AcademyApp.DLL.csproj|c:\\users\\amilm\\onedrive\\desktop\\pa201\\academyapp\\academyapp.dll\\dtos\\groupdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59075533-3E08-4549-93AC-C85167AB911F}|AcademyApp.DLL\\AcademyApp.DLL.csproj|solutionrelative:academyapp.dll\\dtos\\groupdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Entities\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcademyApp.Core.Entities\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Infrastructure.Data\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcademyApp.Infrastructure.Data\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Application.Services\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcademyApp.Application.Services\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D72A282-0898-4863-BE5E-1CBA0B480E57}|AcademyApp.Application.Services\\AcademyApp.Application.Services.csproj|c:\\users\\amilm\\onedrive\\desktop\\pa201\\academyapp\\academyapp.application.services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D72A282-0898-4863-BE5E-1CBA0B480E57}|AcademyApp.Application.Services\\AcademyApp.Application.Services.csproj|solutionrelative:academyapp.application.services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC8FE4-1D62-4465-90CA-89F439505A70}|AcademyApp.Infrastructure.Data\\AcademyApp.Infrastructure.Data.csproj|c:\\users\\amilm\\onedrive\\desktop\\pa201\\academyapp\\academyapp.infrastructure.data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BEC8FE4-1D62-4465-90CA-89F439505A70}|AcademyApp.Infrastructure.Data\\AcademyApp.Infrastructure.Data.csproj|solutionrelative:academyapp.infrastructure.data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC8FE4-1D62-4465-90CA-89F439505A70}|AcademyApp.Infrastructure.Data\\AcademyApp.Infrastructure.Data.csproj|c:\\users\\amilm\\onedrive\\desktop\\pa201\\academyapp\\academyapp.infrastructure.data\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BEC8FE4-1D62-4465-90CA-89F439505A70}|AcademyApp.Infrastructure.Data\\AcademyApp.Infrastructure.Data.csproj|solutionrelative:academyapp.infrastructure.data\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC8FE4-1D62-4465-90CA-89F439505A70}|AcademyApp.Infrastructure.Data\\AcademyApp.Infrastructure.Data.csproj|c:\\users\\amilm\\onedrive\\desktop\\pa201\\academyapp\\academyapp.infrastructure.data\\academydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BEC8FE4-1D62-4465-90CA-89F439505A70}|AcademyApp.Infrastructure.Data\\AcademyApp.Infrastructure.Data.csproj|solutionrelative:academyapp.infrastructure.data\\academydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{926EF912-41D1-4EE8-8644-60119CA079A8}|AcademyApp.Core.Interfaces\\AcademyApp.Core.Interfaces.csproj|c:\\users\\amilm\\onedrive\\desktop\\pa201\\academyapp\\academyapp.core.interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{926EF912-41D1-4EE8-8644-60119CA079A8}|AcademyApp.Core.Interfaces\\AcademyApp.Core.Interfaces.csproj|solutionrelative:academyapp.core.interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{926EF912-41D1-4EE8-8644-60119CA079A8}|AcademyApp.Core.Interfaces\\AcademyApp.Core.Interfaces.csproj|c:\\users\\amilm\\onedrive\\desktop\\pa201\\academyapp\\academyapp.core.interfaces\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{926EF912-41D1-4EE8-8644-60119CA079A8}|AcademyApp.Core.Interfaces\\AcademyApp.Core.Interfaces.csproj|solutionrelative:academyapp.core.interfaces\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{926EF912-41D1-4EE8-8644-60119CA079A8}|AcademyApp.Core.Interfaces\\AcademyApp.Core.Interfaces.csproj|c:\\users\\amilm\\onedrive\\desktop\\pa201\\academyapp\\academyapp.core.interfaces\\igrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{926EF912-41D1-4EE8-8644-60119CA079A8}|AcademyApp.Core.Interfaces\\AcademyApp.Core.Interfaces.csproj|solutionrelative:academyapp.core.interfaces\\igrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4ABFD2E-1DDE-49A4-AF9D-2A29985A79C7}|AcademyApp.Core.Entities\\AcademyApp.Core.Entities.csproj|c:\\users\\amilm\\onedrive\\desktop\\pa201\\academyapp\\academyapp.core.entities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4ABFD2E-1DDE-49A4-AF9D-2A29985A79C7}|AcademyApp.Core.Entities\\AcademyApp.Core.Entities.csproj|solutionrelative:academyapp.core.entities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -75,99 +113,253 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "GroupDataDto.cs",
-              "DocumentMoniker": "C:\\Users\\amilm\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1948267389\\GroupDataDto.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1948267389\\GroupDataDto.cs",
-              "ToolTip": "C:\\Users\\amilm\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1948267389\\GroupDataDto.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1948267389\\GroupDataDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T19:01:11.514Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GroupServiceDto.cs",
-              "DocumentMoniker": "C:\\Users\\amilm\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1948470075\\GroupServiceDto.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1948470075\\GroupServiceDto.cs",
-              "ToolTip": "C:\\Users\\amilm\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1948470075\\GroupServiceDto.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1948470075\\GroupServiceDto.cs",
+              "Title": "PROGRAM_SETUP.md",
+              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\PROGRAM_SETUP.md",
+              "RelativeDocumentMoniker": "PROGRAM_SETUP.md",
+              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\PROGRAM_SETUP.md",
+              "RelativeToolTip": "PROGRAM_SETUP.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-11-04T19:11:42.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ARCHITECTURE.md",
+              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\ARCHITECTURE.md",
+              "RelativeDocumentMoniker": "ARCHITECTURE.md",
+              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\ARCHITECTURE.md",
+              "RelativeToolTip": "ARCHITECTURE.md",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-11-04T19:05:20.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GroupService.cs",
+              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Application.Services\\GroupService.cs",
+              "RelativeDocumentMoniker": "AcademyApp.Application.Services\\GroupService.cs",
+              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Application.Services\\GroupService.cs",
+              "RelativeToolTip": "AcademyApp.Application.Services\\GroupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T19:04:20.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Infrastructure.Data\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "AcademyApp.Infrastructure.Data\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Infrastructure.Data\\UnitOfWork.cs",
+              "RelativeToolTip": "AcademyApp.Infrastructure.Data\\UnitOfWork.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T19:04:03.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GroupRepository.cs",
+              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Infrastructure.Data\\GroupRepository.cs",
+              "RelativeDocumentMoniker": "AcademyApp.Infrastructure.Data\\GroupRepository.cs",
+              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Infrastructure.Data\\GroupRepository.cs",
+              "RelativeToolTip": "AcademyApp.Infrastructure.Data\\GroupRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T19:03:57.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AcademyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Infrastructure.Data\\AcademyDbContext.cs",
+              "RelativeDocumentMoniker": "AcademyApp.Infrastructure.Data\\AcademyDbContext.cs",
+              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Infrastructure.Data\\AcademyDbContext.cs",
+              "RelativeToolTip": "AcademyApp.Infrastructure.Data\\AcademyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T19:03:50.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "AcademyApp.Core.Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "AcademyApp.Core.Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T19:03:38.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IGroupService.cs",
+              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Interfaces\\IGroupService.cs",
+              "RelativeDocumentMoniker": "AcademyApp.Core.Interfaces\\IGroupService.cs",
+              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Interfaces\\IGroupService.cs",
+              "RelativeToolTip": "AcademyApp.Core.Interfaces\\IGroupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T19:03:33.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IGroupRepository.cs",
+              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Interfaces\\IGroupRepository.cs",
+              "RelativeDocumentMoniker": "AcademyApp.Core.Interfaces\\IGroupRepository.cs",
+              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Interfaces\\IGroupRepository.cs",
+              "RelativeToolTip": "AcademyApp.Core.Interfaces\\IGroupRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T19:03:27.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Entities\\Group.cs",
+              "RelativeDocumentMoniker": "AcademyApp.Core.Entities\\Group.cs",
+              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Entities\\Group.cs",
+              "RelativeToolTip": "AcademyApp.Core.Entities\\Group.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T19:03:21.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Application.Services\\Class1.cs",
+              "RelativeDocumentMoniker": "AcademyApp.Application.Services\\Class1.cs",
+              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Application.Services\\Class1.cs",
+              "RelativeToolTip": "AcademyApp.Application.Services\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T19:01:05.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T19:03:12.714Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "GroupDto.cs",
-              "DocumentMoniker": "C:\\Users\\amilm\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\620456204\\GroupDto.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\620456204\\GroupDto.cs",
-              "ToolTip": "C:\\Users\\amilm\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\620456204\\GroupDto.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\620456204\\GroupDto.cs",
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Infrastructure.Data\\Class1.cs",
+              "RelativeDocumentMoniker": "AcademyApp.Infrastructure.Data\\Class1.cs",
+              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Infrastructure.Data\\Class1.cs",
+              "RelativeToolTip": "AcademyApp.Infrastructure.Data\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T19:01:00.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T19:03:09.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Interfaces\\Class1.cs",
+              "RelativeDocumentMoniker": "AcademyApp.Core.Interfaces\\Class1.cs",
+              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Interfaces\\Class1.cs",
+              "RelativeToolTip": "AcademyApp.Core.Interfaces\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T19:03:06.503Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Entities\\Class1.cs",
+              "RelativeDocumentMoniker": "AcademyApp.Core.Entities\\Class1.cs",
+              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.Entities\\Class1.cs",
+              "RelativeToolTip": "AcademyApp.Core.Entities\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T19:03:02.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GroupDataDto.cs",
+              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.DLL\\DTOs\\GroupDataDto.cs",
+              "RelativeDocumentMoniker": "AcademyApp.DLL\\DTOs\\GroupDataDto.cs",
+              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.DLL\\DTOs\\GroupDataDto.cs",
+              "RelativeToolTip": "AcademyApp.DLL\\DTOs\\GroupDataDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T19:02:17.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GroupServiceDto.cs",
+              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.BLL\\DTOs\\GroupServiceDto.cs",
+              "RelativeDocumentMoniker": "AcademyApp.BLL\\DTOs\\GroupServiceDto.cs",
+              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.BLL\\DTOs\\GroupServiceDto.cs",
+              "RelativeToolTip": "AcademyApp.BLL\\DTOs\\GroupServiceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T19:02:16.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GroupDto.cs",
+              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core\\DTOs\\GroupDto.cs",
+              "RelativeDocumentMoniker": "AcademyApp.Core\\DTOs\\GroupDto.cs",
+              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core\\DTOs\\GroupDto.cs",
+              "RelativeToolTip": "AcademyApp.Core\\DTOs\\GroupDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T19:02:16.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GroupDataDto.cs",
               "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.DLL.DTOs\\GroupDataDto.cs",
               "RelativeDocumentMoniker": "AcademyApp.DLL.DTOs\\GroupDataDto.cs",
               "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.DLL.DTOs\\GroupDataDto.cs",
               "RelativeToolTip": "AcademyApp.DLL.DTOs\\GroupDataDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T19:00:55.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T19:00:55.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "GroupServiceDto.cs",
               "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.BLL.DTOs\\GroupServiceDto.cs",
               "RelativeDocumentMoniker": "AcademyApp.BLL.DTOs\\GroupServiceDto.cs",
               "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.BLL.DTOs\\GroupServiceDto.cs",
               "RelativeToolTip": "AcademyApp.BLL.DTOs\\GroupServiceDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T19:00:51.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T19:00:51.702Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "GroupDto.cs",
               "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.DTOs\\GroupDto.cs",
               "RelativeDocumentMoniker": "AcademyApp.Core.DTOs\\GroupDto.cs",
               "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core.DTOs\\GroupDto.cs",
               "RelativeToolTip": "AcademyApp.Core.DTOs\\GroupDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T19:00:47.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T19:00:47.252Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\amilm\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1347314263\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1347314263\\Class1.cs",
-              "ToolTip": "C:\\Users\\amilm\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1347314263\\Class1.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1347314263\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T19:00:43.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.DLL.DTOs\\Class1.cs",
               "RelativeDocumentMoniker": "AcademyApp.DLL.DTOs\\Class1.cs",
@@ -175,25 +367,11 @@
               "RelativeToolTip": "AcademyApp.DLL.DTOs\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T19:00:43.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T19:00:43.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\amilm\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1347516949\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1347516949\\Class1.cs",
-              "ToolTip": "C:\\Users\\amilm\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1347516949\\Class1.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1347516949\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T19:00:41.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.BLL.DTOs\\Class1.cs",
               "RelativeDocumentMoniker": "AcademyApp.BLL.DTOs\\Class1.cs",
@@ -201,21 +379,7 @@
               "RelativeToolTip": "AcademyApp.BLL.DTOs\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T19:00:40.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\amilm\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\620333022\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\620333022\\Class1.cs",
-              "ToolTip": "C:\\Users\\amilm\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\620333022\\Class1.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\620333022\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T19:00:38.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T19:00:40.486Z"
             },
             {
               "$type": "Document",
@@ -227,12 +391,11 @@
               "RelativeToolTip": "AcademyApp.Core.DTOs\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T19:00:36.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T19:00:36.659Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AcademyDbContext.cs",
               "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.DLL\\Data\\AcademyDbContext.cs",
               "RelativeDocumentMoniker": "AcademyApp.DLL\\Data\\AcademyDbContext.cs",
@@ -240,64 +403,19 @@
               "RelativeToolTip": "AcademyApp.DLL\\Data\\AcademyDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T18:42:07.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T18:42:07.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AcademyApp.Core",
+              "DocumentIndex": 5,
+              "Title": "AcademyApp.Core.csproj",
               "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core\\AcademyApp.Core.csproj",
               "RelativeDocumentMoniker": "AcademyApp.Core\\AcademyApp.Core.csproj",
               "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core\\AcademyApp.Core.csproj",
               "RelativeToolTip": "AcademyApp.Core\\AcademyApp.Core.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-04T18:40:27.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Group.cs",
-              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core\\Models\\Group.cs",
-              "RelativeDocumentMoniker": "AcademyApp.Core\\Models\\Group.cs",
-              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core\\Models\\Group.cs",
-              "RelativeToolTip": "AcademyApp.Core\\Models\\Group.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T18:40:35.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core\\Class1.cs",
-              "RelativeDocumentMoniker": "AcademyApp.Core\\Class1.cs",
-              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.Core\\Class1.cs",
-              "RelativeToolTip": "AcademyApp.Core\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T18:40:15.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.PL\\Program.cs",
-              "RelativeDocumentMoniker": "AcademyApp.PL\\Program.cs",
-              "ToolTip": "C:\\Users\\amilm\\OneDrive\\Desktop\\Pa201\\AcademyApp\\AcademyApp.PL\\Program.cs",
-              "RelativeToolTip": "AcademyApp.PL\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T18:36:35.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T18:40:27.042Z"
             }
           ]
         }

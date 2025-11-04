@@ -10,7 +10,3 @@ C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core\obj\Debug\net8.
 C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core\obj\Debug\net8.0\refint\AcademyApp.Core.dll
 C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core\obj\Debug\net8.0\AcademyApp.Core.pdb
 C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core\obj\Debug\net8.0\ref\AcademyApp.Core.dll
-C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core\bin\Debug\net8.0\AcademyApp.Core.DTOs.dll
-C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core\bin\Debug\net8.0\AcademyApp.Core.DTOs.pdb
-C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core\obj\Debug\net8.0\AcademyApp.Core.csproj.AssemblyReference.cache
-C:\Users\amilm\OneDrive\Desktop\Pa201\AcademyApp\AcademyApp.Core\obj\Debug\net8.0\AcademyA.82B90219.Up2Date
