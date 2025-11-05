@@ -1,0 +1,12 @@
+C:\Users\amilm\OneDrive\Desktop\Pa201\RestaurantApp\RestaurantApp.Core\bin\Debug\net8.0\RestaurantApp.Core.deps.json
+C:\Users\amilm\OneDrive\Desktop\Pa201\RestaurantApp\RestaurantApp.Core\bin\Debug\net8.0\RestaurantApp.Core.dll
+C:\Users\amilm\OneDrive\Desktop\Pa201\RestaurantApp\RestaurantApp.Core\bin\Debug\net8.0\RestaurantApp.Core.pdb
+C:\Users\amilm\OneDrive\Desktop\Pa201\RestaurantApp\RestaurantApp.Core\obj\Debug\net8.0\RestaurantApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amilm\OneDrive\Desktop\Pa201\RestaurantApp\RestaurantApp.Core\obj\Debug\net8.0\RestaurantApp.Core.AssemblyInfoInputs.cache
+C:\Users\amilm\OneDrive\Desktop\Pa201\RestaurantApp\RestaurantApp.Core\obj\Debug\net8.0\RestaurantApp.Core.AssemblyInfo.cs
+C:\Users\amilm\OneDrive\Desktop\Pa201\RestaurantApp\RestaurantApp.Core\obj\Debug\net8.0\RestaurantApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\amilm\OneDrive\Desktop\Pa201\RestaurantApp\RestaurantApp.Core\obj\Debug\net8.0\RestaurantApp.Core.sourcelink.json
+C:\Users\amilm\OneDrive\Desktop\Pa201\RestaurantApp\RestaurantApp.Core\obj\Debug\net8.0\RestaurantApp.Core.dll
+C:\Users\amilm\OneDrive\Desktop\Pa201\RestaurantApp\RestaurantApp.Core\obj\Debug\net8.0\refint\RestaurantApp.Core.dll
+C:\Users\amilm\OneDrive\Desktop\Pa201\RestaurantApp\RestaurantApp.Core\obj\Debug\net8.0\RestaurantApp.Core.pdb
+C:\Users\amilm\OneDrive\Desktop\Pa201\RestaurantApp\RestaurantApp.Core\obj\Debug\net8.0\ref\RestaurantApp.Core.dll
