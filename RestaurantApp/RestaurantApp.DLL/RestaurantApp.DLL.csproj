@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RestaurantApp.Core\RestaurantApp.Core.csproj" />
+    <ProjectReference Include="..\RestaurantApp.BLL\RestaurantApp.BLL.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +18,10 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Concretes\" />
   </ItemGroup>
 
 </Project>
